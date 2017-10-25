@@ -92,7 +92,6 @@ menu = {
 
 }
 
-access_token='EAAE7ZBCZBZCAOsBAFRYSbXZBDh5xGstR3RBm62hkb44PGpqVKVvIU7EYDgbZCB06uTlo8dmcPuezLSpxziZC7C9xFFrvlhHjY3xOjpwdDzzk18j0z0BVzUrgi5XFi7yf2kkOviTnVZCfZBUb9QhmG1bcYMYxDMZC74zj0NFwtE5Nu5wZDZD'
 @app.route('/', methods=['GET'])
 def verify():
     # when the endpoint is registered as a webhook, it must echo back
